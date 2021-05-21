@@ -1,0 +1,3 @@
+Quel logiciel gratuit utiliser pour réaliser la maquette? (Figma, Photoshop sont devenus payants)
+Quel est l'intérêt d'avoir plusieurs versions? Sur laquelle je dois travailler (main, v1)?
+A quel moment faut il implémanter le CSS? Après avoir réalisé la page HTML?
