@@ -1,3 +1,7 @@
 Quel logiciel gratuit utiliser pour réaliser la maquette? (Figma, Photoshop sont devenus payants)
-Quel est l'intérêt d'avoir plusieurs versions? Sur laquelle je dois travailler (main, v1)?
+Quel est l'intérêt d'avoir plusieurs versions? Sur laquelle je dois travailler (main, v1)? Comment s'organiser?
 A quel moment faut il implémanter le CSS? Après avoir réalisé la page HTML?
+Comment définir la taille des éléments? Aucun info n'est renseignée sur la maquette. Comment gérer les dimensions?
+Quels sont les bonnes conventions BEM et naming des balises HTML?
+Bloqué sur Info-circle: le bon icon bleu est payant sur fontawesome. Possibilité de l'éditer en CSS? est ce si important?
+Quand je fais un test pour changer la couleur des icônes, ça change également la couleur du texte. Je crois que j'ai trouvé l'astuce. 

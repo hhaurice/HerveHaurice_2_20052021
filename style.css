@@ -1,0 +1,169 @@
+body {
+    font-family: 'Raleway', sans-serif;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+
+    display: flex;
+    width: 110px;
+    height: 45px;
+ 
+}
+
+#nav_header {
+    
+    display: flex;
+}
+
+.nav_header a {
+    text-align: center;
+    padding: 10px 50px;
+    color: black;
+}
+
+.nav_header a:hover {
+    border-top: solid 1px #0065FC;
+    color: #0065FC;
+}
+
+.nav_header_link_cta a {
+    color: #0065FC;
+    font-weight: bold;
+}
+
+.nav_header_link_cta a:hover {
+    font-size: large;
+}
+
+
+
+.search {
+  margin-top: 20px;
+}
+
+#site-search {
+    padding: 4px 8px;
+    margin-left: 10px;
+}
+
+.main_block {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.accomodations {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border: solid #F2F2F2 1px;
+    border-radius: 30px;
+    padding: 40px;
+    margin-right: 60px;
+}
+
+.card_container_block {
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    
+}
+
+.card_container {
+    background-color: white;
+    border-radius: 30px;
+    padding: 4px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 5px 0px #F2F2F2;
+}
+
+img {
+    border: solid 1px white;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.img_card_accomodations {
+    width: 329px;
+    height: 187px;
+}
+
+.card_info {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.accomodations_popular {
+    background-color: #F2F2F2;
+    border: solid #F2F2F2 1px;
+    border-radius: 30px;
+    padding: 40px;
+}
+
+
+
+
+
+
+.activities {
+    display: flex;
+    flex-direction: column;
+}
+
+.activities_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.col {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: #F2F2F2;
+
+}
+
+.nav_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+    padding-bottom: 30px;
+}
+
+.footer_container ul {
+    display: flex;
+    flex-direction: column;
+}
