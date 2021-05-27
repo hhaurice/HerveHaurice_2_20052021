@@ -1,6 +1,5 @@
 body {
     font-family: 'Raleway', sans-serif;
-   
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -23,6 +22,30 @@ header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+}
+
+.filter_btn .fas {
+    color: #0065FC;
+    border: solid 1px #DEEBFF;
+    background-color: #DEEBFF;
+    padding: 15px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+
+.filter_btn {
+    background-color: white;
+    border-radius: 30px;
+    padding-left: 0px;
+    padding-right: 20px;
+    border: solid 1px #F2F2F2;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.filter_btn:hover {
+    background-color: #F2F2F2;
 }
 
 #logo {
@@ -172,6 +195,8 @@ img {
     flex-direction: row;
     flex-wrap: nowrap;
 }
+
+
 
 .col {
     display: flex;
