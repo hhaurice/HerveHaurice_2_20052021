@@ -25,7 +25,8 @@ Ressource fontawesome, mdn pour les boutons, l'intégration des icônes
 
 22 mai: 
 
-Renommer en anglais les balises html
-Créer un bloc pour contenir mon aside
-Mise en place du CSS pour les blocs principaux
+Renommer en anglais les balises html ok
+Créer un bloc pour contenir mon aside ok
+Mise en place du CSS pour les blocs principaux, police et couleur
+Utiliser Flexbox et mettre des bordures sur chaque élément
 Créer des ancres pour les accès pour la page html
