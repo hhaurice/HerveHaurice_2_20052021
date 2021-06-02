@@ -24,9 +24,16 @@ header {
     margin-bottom: 20px;
 }
 
+.nav_header_link_block {
+    display: flex;
+}
+
+
+
 .search {
     display: flex;
     flex-direction: column;
+    margin-left: 40px;
 }
 
 
@@ -34,6 +41,7 @@ input#site_search {
     padding: 10px;
     margin-left: 20px;
     font-weight: bold;
+    font-size: 1rem;
     color: black;
 }
 
@@ -48,6 +56,7 @@ input#site_search {
     padding: 12px 20px 12px 12px;
     background: #0065FC;
     color: white;
+    font-size: 1rem;
     font-weight: bold;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -93,6 +102,7 @@ input#site_search {
     display: flex;
     width: 110px;
     height: 45px;
+    margin-left: 40px;
  
 }
 
@@ -182,6 +192,14 @@ img {
     margin-bottom: 20px;
 }
 
+.fas.fa-star.checked {
+    color: #0065FC;
+}
+
+.fas.fa-star {
+    color: #F2F2F2;
+}
+
 .row {
     display: flex;
     flex-direction: row;
@@ -196,6 +214,10 @@ img {
     padding: 40px;
 }
 
+
+.fas.fa-chart-line {
+    margin-left: 220px;
+}
 
 .card_container_popular {
     display: flex;
@@ -228,6 +250,7 @@ img {
     display: flex;
     flex-direction: column;
     margin-bottom: 40px;
+    margin-left: 40px;
 }
 
 .activities_container {
@@ -269,6 +292,8 @@ footer {
 
 }
 
+
+
 .nav_footer {
     display: flex;
     flex-direction: row;
@@ -280,4 +305,119 @@ footer {
 .footer_container ul {
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (max-width: 650px) {
+    header {
+        display: block;
+    }
+
+    .nav_header {
+        display: block;
+    }
+
+    .nav_header_link_block {
+        margin-top: 20px;
+    }
+
+    .nav_header_link_cta {
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 10px
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        width: 100%;
+        justify-content: center;
+    }
+
+
+    .main_block {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .accomodations {
+        margin-right: 0px;
+        margin-top: 40px;
+        background-color: white;
+        border: none;
+
+    }
+
+    .accomodations_popular {
+        border-radius: 0px;
+    }
+
+  
+    .card_container_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img_card_accomodations {
+        width: 100%;
+        height: 170px;
+    }
+
+    .img_accomodations_popular {
+        height: 170px;
+    }
+
+
+    .accomodations_popular_block {
+        width: 100%;
+    }
+
+    .card_container_popular {
+        width: 100%;
+    }
+
+    .card_info_popular {
+        width: auto;
+    }
+
+    .col {
+        flex-direction: column;
+    }
+
+    .activities {
+        margin-left: 0px;
+    }
+
+    .activities_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .activities_main_pic {
+        width: 100%;
+        height: 220px;
+    }
+
+    .activities_pic {
+        width: 100%;
+        height: 220px;
+    }
+
+    footer {
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav_footer {
+        flex-direction: column;
+    }
+
 }
