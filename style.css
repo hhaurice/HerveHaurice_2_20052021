@@ -336,7 +336,14 @@ footer {
     flex-direction: column;
 }
 
-@media screen and (max-width: 650px) {
+
+
+@media screen and (max-width: 750px) {
+    body {
+        width: 100%;
+        justify-content: center;
+    }
+
     header {
         display: block;
     }
@@ -390,15 +397,6 @@ footer {
     #btn_familial {
         float: right;
     }
-
-}
-
-@media screen and (max-width: 800px) {
-    body {
-        width: 100%;
-        justify-content: center;
-    }
-
 
   
     .main_block {
@@ -485,4 +483,10 @@ footer {
         flex-direction: column;
     }
 
+}
+
+@media screen and (max-width: 1109px) {
+    .filter_btn {
+        margin-top: 10px;
+    }
 }
