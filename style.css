@@ -56,7 +56,7 @@ ul {
 }
 
 
-a#nav_header_link_cta.nav_header_link {
+a.nav_header_link_cta.nav_header_link {
     color: #0065FC;
 }
 
@@ -145,7 +145,7 @@ input#site_search {
     cursor: pointer;
 }
 
-#logo {
+.logo {
 
     display: flex;
     width: 110px;
@@ -438,7 +438,7 @@ nav {
         margin-bottom: 1rem;
     }
 
-    a#nav_header_link_cta.nav_header_link {
+    a.nav_header_link_cta.nav_header_link {
         width: auto;
         border-bottom: none;
     }
@@ -449,7 +449,7 @@ nav {
     }
 
 
-    #logo {
+    .logo {
         margin-left: 0px;
     }
 
@@ -485,13 +485,13 @@ nav {
     }
 
 
-    #nav_header_link_cta{
+    .nav_header_link_cta{
         font-size: 1rem;
         margin-right: 1rem;   
         color: #0065FC;
     }
 
-    #nav_header_link_cta > a {
+    .nav_header_link_cta > a {
         color: #0065FC;
     }
 
