@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     width: auto;
+    margin: auto;
     
 }
 
@@ -28,13 +29,6 @@ ul {
     display: none;
 }
 
-.header_header {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-between;
-}
 
 .nav_header_link_block--desktop {
     display: flex;
@@ -55,10 +49,14 @@ ul {
     margin-left: 40px;
 }
 
+a.nav_header_link {
+    border: solid 2px transparent;
+    padding: 1rem;
+}
+
 a.nav_header_link:hover {
     color: #0065FC;
     border-top: #0065FC solid 2px;
-    padding: 1rem;
 }
 
 a#nav_header_link_cta.nav_header_link {
@@ -382,7 +380,7 @@ nav {
 }
 
 
-@media screen and (min-width: 330px) and (max-width: 415px) {
+@media screen and (max-width: 415px) {
     .card_info_popular {
         font-size: 0.8rem;
     }
@@ -407,10 +405,6 @@ nav {
 
     .activities_card h3 {
         font-size: 1rem;
-    }
-
-    .main_block {
-        display: flex;
     }
 
 }
@@ -488,6 +482,7 @@ nav {
     a.nav_header_link:hover {
         color: #0065FC;
         border-bottom: #0065FC solid 2px;
+        border-top: none;
     }
 
 
@@ -604,7 +599,7 @@ nav {
         display: flex;
         flex-direction: row;
         align-items: center;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
 
     .popular_block_title {
@@ -709,7 +704,7 @@ nav {
 }
 
 
-@media screen and (max-width: 1534px) {
+@media screen and (min-width: 951px) and (max-width: 1534px) {
 
     .main_block {
         display: block;
